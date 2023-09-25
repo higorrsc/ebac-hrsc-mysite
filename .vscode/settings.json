@@ -2,5 +2,14 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
-  "python.formatting.provider": "none"
+  "python.formatting.provider": "none",
+  "sqltools.useNodeRuntime": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "django",
+      "database": "${workspaceFolder:aula-modulo-06}/mysite/db.sqlite3"
+    }
+  ]
 }
